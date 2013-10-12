@@ -1,0 +1,5 @@
+from CONST import *
+
+class Platform():
+    def __init__(self, x, y, name):
+        self.x, self.y = (x,y)

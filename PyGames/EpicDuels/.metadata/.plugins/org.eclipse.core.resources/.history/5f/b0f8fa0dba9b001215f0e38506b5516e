@@ -1,0 +1,14 @@
+import pygame
+from CONST import *
+
+
+
+class Button():
+    def __init__(self, pos, text, dimensions, color = (255, 200, 200)):
+        self.color = color
+        self.text = text
+        self.pos = pos
+        self.dimensions = dimensions
+        
+    def update(self):
+        pygame.draw.rect(screen,self.color,(self.pos, self.dimensions))

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CS254_platform/src/Platform&apos; to &apos;Platform.py&apos;" description="Rename resource &apos;Platform&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Platform" name="Platform.py" stamp="1366786183669" updateReferences="true"/>
+</session>

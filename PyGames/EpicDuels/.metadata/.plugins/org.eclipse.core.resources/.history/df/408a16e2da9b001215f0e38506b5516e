@@ -1,0 +1,14 @@
+import pygame,os
+from pygame.locals import *
+
+WINDOW_SIZE = (1100, 545)
+
+screen = pygame.display.set_mode(WINDOW_SIZE)
+
+def showText(text,pos,size=20,color=(0,0,0),theFont="Basica.ttf"):
+    fontObj = pygame.font.Font(os.path.join("data",theFont), size)
+    fontObj = fontObj.render(text, False, color)
+    fontRect = fontObj.get_rect()
+    fontRect.center = pos
+    screen.blit(fontObj, fontRect)
+    

@@ -1,0 +1,26 @@
+import pygame, sys, os
+import Map
+from pygame.locals import *
+from CONST import *
+
+clock = pygame.time.Clock()
+FPS = 60
+
+
+pygame.init()
+
+map = Map()
+
+while True:
+    for event in pygame.event.get():
+        if event.type == QUIT or (event.type == KEYDOWN and event.key == K_q):
+            pygame.quit()
+            sys.exit()
+    
+    screen.fill((50,50,50))
+    map.update()
+    
+    
+    
+    
+    pygame.display.flip()

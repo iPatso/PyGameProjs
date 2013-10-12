@@ -1,0 +1,14 @@
+INSTUPCONST
+C:\Users\Patrick\Desktop\PyGames\SWSpace\SWSpace\src\CONST.py
+INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0&&3|6|2|0&&2|7|2|0&&2|8|2|0&&2|9|2|0&&2|10|2|0&&2|11|2|0
+showGrid=8
+screen=6
+DARK_ORANGE=5
+flicker=10
+LIGHT_GREY=3
+textFont=7
+WINDOW_SIZE=1
+scaleLifeBar=11
+DARK_GREY=4
+CONST=2
+loadimage_alpha=9

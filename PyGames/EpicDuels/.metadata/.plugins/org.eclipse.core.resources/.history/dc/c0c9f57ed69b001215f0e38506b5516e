@@ -1,0 +1,28 @@
+import pygame, sys, os
+from pygame.locals import *
+from CONST import *
+from Board import Board
+from Button import *
+
+clock = pygame.time.Clock()
+FPS = 60
+
+
+pygame.init()
+
+board = Board()
+butt = Button((50,100), "Roll Dice", (10,50))
+
+while True:
+    for event in pygame.event.get():
+        if event.type == QUIT or (event.type == KEYDOWN and event.key == K_q):
+            pygame.quit()
+            sys.exit()
+    
+    screen.fill((50,50,50))
+    board.showBoard()
+    
+    butt.update()
+    
+    
+    pygame.display.flip()

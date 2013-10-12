@@ -1,0 +1,39 @@
+import pygame, sys, os
+from pygame.locals import *
+from Player import Player
+from CONST import *
+
+pygame.init()
+clock = pygame.time.Clock()
+
+player = Player()
+
+def main():
+    while True:
+        clock.tick(60)
+        for event in pygame.event.get():
+            if event.type == QUIT or (event.type == KEYDOWN and event.key == K_q):
+                pygame.quit()
+                sys.exit()
+    
+        
+        
+        
+        
+        
+        
+        
+        pygame.display.update()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+if __name__ == '__main__':
+    main()

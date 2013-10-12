@@ -1,0 +1,31 @@
+import pygame, sys, os
+from pygame.locals import *
+from CONST import *
+from Board import Board
+from Button import *
+
+clock = pygame.time.Clock()
+FPS = 60
+
+
+pygame.init()
+
+board = Board()
+butt = Button((screen.get_width()/2,7), "Roll Dice", (110,40))
+
+while True:
+    for event in pygame.event.get():
+        if event.type == QUIT or (event.type == KEYDOWN and event.key == K_q):
+            pygame.quit()
+            sys.exit()
+        elif event.type == MOUSEBUTTONDOWN and butt.isHoveredOver():
+            print "Rolling dice"
+            # TODO dice roll function or class
+    
+    screen.fill((50,50,50))
+    board.showBoard()
+    
+    butt.update()
+    
+    
+    pygame.display.flip()

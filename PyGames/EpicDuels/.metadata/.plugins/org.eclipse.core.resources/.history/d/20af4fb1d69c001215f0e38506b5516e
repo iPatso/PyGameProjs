@@ -1,0 +1,16 @@
+import pygame, sys, os
+from pygame.locals import *
+
+def main():
+    
+    pygame.init()
+    
+    screen = pygame.display.set_mode((600,400))
+    
+    while True:
+        for event in pygame.event.get():
+            if event.type == QUIT or (event.type == KEYDOWN and event.key == K_q):
+                pygame.quit()
+                sys.exit()
+                
+                

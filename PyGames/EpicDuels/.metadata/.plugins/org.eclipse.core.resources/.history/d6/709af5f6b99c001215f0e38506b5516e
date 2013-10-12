@@ -1,0 +1,26 @@
+import pygame
+from CONST import *
+
+class Team():
+    def __init__(self):
+        self.primary = pygame.image.load("data/asajj.png").convert_alpha()
+        self.secondary = []
+        self.deck = 0
+        self.primX = 0
+        self.primY = 0
+        
+    def update(self):
+        keys = pygame.key.get_pressed()
+        if keys[K_DOWN]:
+            self.primY += 1
+        elif keys[K_UP]:
+            self.primY -= 1
+        elif keys[K_LEFT]:
+            self.primX -= 1
+        elif keys[K_RIGHT]:
+            self.primX += 1
+                    
+                    
+                    
+                    
+        screen.blit(self.primary,(MAPCOORDS[self.primY][self.primX]))

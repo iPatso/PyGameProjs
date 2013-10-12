@@ -1,0 +1,85 @@
+-- VERSION_3
+-- START DISKCACHE
+C:\Users\Patrick\Desktop\PyGames\CS254_platform\.metadata\.plugins\org.eclipse.core.resources\.projects\CS254_platform\com.python.pydev.analysis\v1_indexcache
+.v1_indexcache
+Enemy|0|C:\Users\Patrick\Desktop\PyGames\CS254_platform\CS254_platform\src\Enemy.py
+Player|0|C:\Users\Patrick\Desktop\PyGames\CS254_platform\CS254_platform\src\Player.py
+menu|0|C:\Users\Patrick\Desktop\PyGames\CS254_platform\CS254_platform\src\menu.py
+Background|0|C:\Users\Patrick\Desktop\PyGames\CS254_platform\CS254_platform\src\Background.py
+CONST|0|C:\Users\Patrick\Desktop\PyGames\CS254_platform\CS254_platform\src\CONST.py
+Battle|0|C:\Users\Patrick\Desktop\PyGames\CS254_platform\CS254_platform\src\Battle.py
+Platform|0|C:\Users\Patrick\Desktop\PyGames\CS254_platform\CS254_platform\src\Platform.py
+main|0|C:\Users\Patrick\Desktop\PyGames\CS254_platform\CS254_platform\src\main.py
+-- END DISKCACHE
+-- START DICTIONARY
+17
+12=Menu.__init__
+5=Enemy
+14=Platform.__init__
+8=Player
+15=Background.__init__
+4=menu
+10=Player.__init__
+2=Background
+16=Enemy.update
+1=CONST
+13=Enemy.__init__
+3=Battle
+6=main
+9=Menu
+17=Platform.update
+11=Player.update
+7=Platform
+-- END DICTIONARY
+-- START TREE 1
+19
+arr|1|arrayImg!10@
+bac|1|Background!17@
+bat|1|battle!26@
+bla|1|BLACK!11@
+clo|1|clock!35@
+col|1|collide_edges!10@
+dar|2|DARK_ORANGE!11@DARK_GREY!11@
+dos|1|doSelection!26@
+ene|2|ENEMIES!11@Enemy!41@
+lig|1|LIGHT_GREY!11@
+loa|1|loadimage_alpha!10@
+mai|1|main!50@
+men|1|Menu!33@
+pla|4|Platform!57@PLATFORMS!11@PLAYERS!11@Player!65@
+sca|1|scaleLifeBar!10@
+scr|1|screen!11@
+sho|1|showGrid!10@
+tex|1|textFont!10@
+win|1|WINDOW_SIZE!11@
+-- END TREE
+-- START TREE 2
+27
+__i|5|__init__!8&66@__init__!5&42@__init__!9&34@__init__!7&58@__init__!2&18@
+ani|8|ani_max!10&67@ani_R!10&67@ani_speed!11&67@ani_speed!10&67@ani_speed_init!10&67@ani_pos!11&67@ani_pos!10&67@ani_L!10&67@
+bg_|1|bg_image!12&35@
+fri|1|friction!10&67@
+gra|1|gravity!10&67@
+hp|2|hp!10&67@hp!13&43@
+ima|5|image!14&59@image!15&19@image!11&67@image!10&67@image!13&43@
+isr|4|IsRight!16&43@IsRight!13&43@IsRight!17&59@IsRight!14&59@
+jum|1|jumpvel!10&67@
+mov|2|moves!13&43@moves!14&59@
+ong|2|onGround!11&67@onGround!10&67@
+opt|1|optionsSelections!12&35@
+rec|3|rect!13&43@rect!10&67@rect!14&59@
+run|2|running!11&67@running!10&67@
+sel|1|selection!12&35@
+sho|2|showOptions!9&34@showSelections!9&34@
+spe|1|speed!10&67@
+sta|2|stand_R!10&67@stand_L!10&67@
+sub|2|subLogoAnimation!9&34@subLogo!12&35@
+upd|4|update!5&42@update!2&18@update!8&66@update!7&58@
+wal|4|walkingRight!11&67@walkingRight!10&67@walk_R!10&67@walk_L!10&67@
+x|2|x!10&67@x!15&19@
+x_v|1|x_vel!11&67@
+xve|1|xvel!10&67@
+y|1|y!10&67@
+y_v|1|y_vel!11&67@
+yve|2|yvel!11&67@yvel!10&67@
+-- END TREE

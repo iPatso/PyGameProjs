@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CS254_platform/src/Battle&apos; to &apos;Battle.py&apos;" description="Rename resource &apos;Battle&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Battle" name="Battle.py" stamp="1367701252196" updateReferences="true"/>
+</session>

@@ -1,0 +1,41 @@
+import pygame, sys, os
+from pygame.locals import *
+from CONST import *
+from Board import Board
+from Button import Button
+from Die import Die
+from Player import Player
+from Chart import Chart
+
+clock = pygame.time.Clock()
+FPS = 60
+
+pygame.display.set_caption("Epic Duels")
+pygame.init()
+
+board = Board()
+die = Die()
+player1 = Player()
+chart = Chart("light", "")
+dieButton = Button((screen.get_width()/2,7), "Roll Die", (110,40))
+
+while True:
+    for event in pygame.event.get():
+        if event.type == QUIT or (event.type == KEYDOWN and event.key == K_q):
+            pygame.quit()
+            sys.exit()
+        elif event.type == MOUSEBUTTONDOWN and dieButton.isHoveredOver():
+            print "Rolling die"
+            die.rollDie()
+        elif event.type == MOUSEBUTTONDOWN:
+            print pygame.mouse.get_pos()    
+        
+    
+    screen.fill((50,50,50))
+    board.showBoard()
+    
+    player1.teamUpdate()
+    dieButton.update()
+    chart.update()
+    
+    pygame.display.flip()

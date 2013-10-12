@@ -1,0 +1,11 @@
+import pygame, os, random
+
+
+class Die():
+    def __init__(self):
+        self.value = 0
+        self.image = 0 # TODO: put pygame.image...
+        
+    def rollDie(self):
+        self.value = random.randrange(0,6)
+        print "You rolled: ", self.value

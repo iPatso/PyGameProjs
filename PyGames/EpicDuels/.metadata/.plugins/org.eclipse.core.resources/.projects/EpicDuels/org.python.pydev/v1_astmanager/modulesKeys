@@ -1,0 +1,10 @@
+MODULES_MANAGER_V2
+Board|C:\Users\Patrick\Desktop\PyGames\EpicDuels\EpicDuels\src\Board.py
+Button|C:\Users\Patrick\Desktop\PyGames\EpicDuels\EpicDuels\src\Button.py
+CONST|C:\Users\Patrick\Desktop\PyGames\EpicDuels\EpicDuels\src\CONST.py
+Chart|C:\Users\Patrick\Desktop\PyGames\EpicDuels\EpicDuels\src\Chart.py
+Die|C:\Users\Patrick\Desktop\PyGames\EpicDuels\EpicDuels\src\Die.py
+Player|C:\Users\Patrick\Desktop\PyGames\EpicDuels\EpicDuels\src\Player.py
+Team|C:\Users\Patrick\Desktop\PyGames\EpicDuels\EpicDuels\src\Team.py
+main|C:\Users\Patrick\Desktop\PyGames\EpicDuels\EpicDuels\src\main.py
+testing|C:\Users\Patrick\Desktop\PyGames\EpicDuels\EpicDuels\src\testing.py

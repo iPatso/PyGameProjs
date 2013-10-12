@@ -1,0 +1,98 @@
+-- VERSION_3
+-- START DISKCACHE
+C:\Users\Patrick\Desktop\PyGames\SWSpace\.metadata\.plugins\org.eclipse.core.resources\.projects\SWSpace\com.python.pydev.analysis\v1_indexcache
+.v1_indexcache
+Enemy|0|C:\Users\Patrick\Desktop\PyGames\SWSpace\SWSpace\src\Enemy.py
+SWSmenu|0|C:\Users\Patrick\Desktop\PyGames\SWSpace\SWSpace\src\SWSmenu.py
+Player|0|C:\Users\Patrick\Desktop\PyGames\SWSpace\SWSpace\src\Player.py
+CONST|0|C:\Users\Patrick\Desktop\PyGames\SWSpace\SWSpace\src\CONST.py
+TESTmovement|0|C:\Users\Patrick\Desktop\PyGames\SWSpace\SWSpace\src\TESTmovement.py
+GameTime|0|C:\Users\Patrick\Desktop\PyGames\SWSpace\SWSpace\src\GameTime.py
+FX|0|C:\Users\Patrick\Desktop\PyGames\SWSpace\SWSpace\src\FX.py
+main|0|C:\Users\Patrick\Desktop\PyGames\SWSpace\SWSpace\src\main.py
+-- END DISKCACHE
+-- START DICTIONARY
+23
+13=Menu.__init__
+18=Player.revive
+6=Enemy
+16=Laser.__init__
+8=Player
+9=Laser
+20=Player.__init__
+12=EXPLOSION
+22=Enemy.update
+5=CONST
+23=EXPLOSION.update
+21=Enemy.__init__
+15=EnemyLaser.__init__
+3=GameTime
+7=FX
+4=main
+11=Menu
+2=SWSmenu
+10=EnemyLaser
+14=GameTime.__init__
+17=EXPLOSION.__init__
+19=Player.update
+1=TESTmovement
+-- END DICTIONARY
+-- START TREE 1
+23
+bg|1|bg!11@
+clo|4|clock!19@clock!11@clock!27@clock!35@
+dar|2|DARK_ORANGE!43@DARK_GREY!43@
+ene|4|enemyExplosion!35@enemyLaserSprites!51@EnemyLaser!49@Enemy!49@
+exp|1|EXPLOSION!57@
+fig|1|fighter!11@
+fli|1|flicker!42@
+fps|1|FPS!27@
+gam|1|GameTime!25@
+gra|1|GRAY!27@
+key|1|keys!11@
+las|2|laserSprites!67@Laser!65@
+lig|1|LIGHT_GREY!43@
+loa|1|loadimage_alpha!42@
+mai|1|main!34@
+men|1|Menu!17@
+pla|1|Player!65@
+sca|1|scaleLifeBar!42@
+scr|2|screen!11@screen!43@
+shi|1|shipY!11@
+sho|1|showGrid!42@
+tex|1|textFont!42@
+win|1|WINDOW_SIZE!43@
+-- END TREE
+-- START TREE 2
+30
+__i|7|__init__!3&26@__init__!9&66@__init__!8&66@__init__!10&50@__init__!6&50@__init__!11&18@__init__!12&58@
+bg_|2|bg_image!13&19@bg_image!14&27@
+bul|2|bullet!15&51@bullet!16&67@
+col|1|color!17&59@
+get|1|getReady!3&26@
+has|1|hasLives!8&66@
+hp|3|hp!18&67@hp!19&67@hp!20&67@
+isd|1|isDead!8&66@
+las|7|laser_timer!19&67@laser_timer!20&67@laser_max!21&51@laser_max!20&67@laser_sound!20&67@laser_timer!22&51@laser_timer!21&51@
+lif|2|lifeSymbol!20&67@lifeBarContainer!20&67@
+liv|1|lives!20&67@
+log|1|logo!13&19@
+los|1|loseHP!8&66@
+mai|1|mainLogoAnimation!11&18@
+mov|3|moveY!22&51@moveY!21&51@moveX!21&51@
+opt|1|optionsSelections!13&19@
+pla|1|playAgainMenu!3&26@
+pos|1|pos!17&59@
+rad|1|rad!17&59@
+rec|2|rect!23&59@rect!17&59@
+rem|1|removeLife!8&66@
+res|1|reset!8&66@
+rev|1|revive!8&66@
+sel|1|selection!13&19@
+sho|4|showOptions!11&18@showSelections!11&18@showLives!8&66@showLifeBar!8&66@
+siz|1|size!17&59@
+sub|2|subLogo!13&19@subLogoAnimation!11&18@
+upd|5|update!12&58@update!10&50@update!6&50@update!9&66@update!8&66@
+x|1|x!19&67@
+y|1|y!19&67@
+-- END TREE

@@ -1,0 +1,12 @@
+import pygame, os
+from pygame.locals import *
+from CONST import *
+
+class Map():
+    def __init__(self): #TODO map_name to be passed in in future. Perhaps pne indicating where to place map (ie. center, left, etc)
+        self.map = pygame.image.load(os.path.join("data", "defaultMap.jpg")).convert()
+        self.rect = self.map.get_rect()
+        self.rect.center = (WINDOW_SIZE[0]/2, WINDOW_SIZE[1]/2)
+        
+    def update(self):
+        screen.blit(self.map, self.rect.center)

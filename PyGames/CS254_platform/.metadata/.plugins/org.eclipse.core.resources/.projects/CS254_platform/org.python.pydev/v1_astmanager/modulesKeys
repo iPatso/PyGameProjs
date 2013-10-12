@@ -1,0 +1,9 @@
+MODULES_MANAGER_V2
+Background|C:\Users\Patrick\Desktop\PyGames\CS254_platform\CS254_platform\src\Background.py
+Battle|C:\Users\Patrick\Desktop\PyGames\CS254_platform\CS254_platform\src\Battle.py
+CONST|C:\Users\Patrick\Desktop\PyGames\CS254_platform\CS254_platform\src\CONST.py
+Enemy|C:\Users\Patrick\Desktop\PyGames\CS254_platform\CS254_platform\src\Enemy.py
+Platform|C:\Users\Patrick\Desktop\PyGames\CS254_platform\CS254_platform\src\Platform.py
+Player|C:\Users\Patrick\Desktop\PyGames\CS254_platform\CS254_platform\src\Player.py
+main|C:\Users\Patrick\Desktop\PyGames\CS254_platform\CS254_platform\src\main.py
+menu|C:\Users\Patrick\Desktop\PyGames\CS254_platform\CS254_platform\src\menu.py

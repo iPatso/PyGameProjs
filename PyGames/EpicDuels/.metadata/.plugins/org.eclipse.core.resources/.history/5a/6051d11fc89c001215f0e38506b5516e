@@ -1,0 +1,22 @@
+import pygame,os
+from pygame.locals import *
+
+WINDOW_SIZE = (1100, 560)
+MAPCOORDS = [[(34,63),(200,30),(400,40),(800,40),(950,50)],
+             [(20,100),(60,100),(100,100),(200,100),(250,100)]]
+
+screen = pygame.display.set_mode(WINDOW_SIZE)
+
+def showText(text,pos,size=20,color=(0,0,0),theFont="Basica.ttf"):
+    fontObj = pygame.font.Font(os.path.join("data",theFont), size)
+    fontObj = fontObj.render(text, False, color)
+    fontRect = fontObj.get_rect()
+    fontRect.center = pos
+    screen.blit(fontObj, fontRect)
+    
+    
+def calcBoardCoords():
+    coords = [[,[]]
+    xInits = [336,328,321,312,302,291,280]
+    yInits
+    

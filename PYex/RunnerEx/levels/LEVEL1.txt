@@ -1,0 +1,10 @@
+LEVEL 1 - BASICS
+10
+w
+15
+w
+20
+3w
+25
+k
+bonus.mp3

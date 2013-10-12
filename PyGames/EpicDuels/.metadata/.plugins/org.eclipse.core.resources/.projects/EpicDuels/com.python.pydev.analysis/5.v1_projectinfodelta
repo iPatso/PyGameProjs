@@ -1,0 +1,16 @@
+INSTUPTeam
+C:\Users\Patrick\Desktop\PyGames\EpicDuels\EpicDuels\src\Team.py
+INFOS:&&1|1|1|0&&2|2|1|1&&3|3|1|4&&3|5|1|4&&3|6|1|4&&3|7|1|4&&3|8|1|4&&3|9|1|4&&3|10|1|4&&3|11|1|4&&2|12|1|1&&3|10|1|13
+update=12
+Team.update=13
+secondary=5
+Team=1
+Team.__init__=4
+__init__=2
+buttonMax=11
+primary=3
+chart=6
+buttonTimer=10
+deck=7
+primY=9
+primX=8

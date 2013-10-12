@@ -1,0 +1,56 @@
+-- VERSION_3
+-- START DISKCACHE
+C:\Users\Patrick\Desktop\PyGames\CS254_rpg\.metadata\.plugins\org.eclipse.core.resources\.projects\CS254_RPG\com.python.pydev.analysis\v1_indexcache
+.v1_indexcache
+main_rpg|0|C:\Users\Patrick\Desktop\PyGames\CS254_rpg\CS254_RPG\src\main_rpg.py
+-- END DISKCACHE
+-- START DICTIONARY
+10
+7=Collider.__init__
+3=Collider
+9=Map.update
+8=Map.__init__
+2=Player
+4=Map
+5=Player.__init__
+6=Player.update
+1=main_rpg
+10=Map.checkCollision
+-- END DICTIONARY
+-- START TREE 1
+12
+arr|2|arrayImgNonSquare!10@arrayImg!10@
+bg_|1|bg_path!11@
+clo|1|clock!11@
+col|1|Collider!9@
+dia|1|dialogue_box_path!11@
+fps|1|FPS!11@
+mai|1|main!10@
+map|1|Map!9@
+npc|2|npc_image_path!11@npc_on_borad_path!11@
+pla|2|player_image_path!11@Player!9@
+scr|1|screen!11@
+win|1|WINDOW_SIZE!11@
+-- END TREE
+-- START TREE 2
+19
+__i|3|__init__!2&10@__init__!3&10@__init__!4&10@
+ani|10|ani_max!5&11@ani_D!5&11@ani_speed_init!5&11@ani_R!5&11@ani_speed!6&11@ani_speed!5&11@ani_U!5&11@ani_pos!6&11@ani_pos!5&11@ani_L!5&11@
+bot|1|bottom_wall!7&11@
+che|1|checkCollision!4&10@
+dia|2|dia_boxes!8&11@dialog_box!8&11@
+ima|1|image!8&11@
+img|2|img!6&11@img!5&11@
+lef|1|left_wall!7&11@
+npc|4|npc_rect!8&11@npc_image!8&11@npc_pos!8&11@npc_on_board!8&11@
+pla|2|player_image!8&11@player_rect!8&11@
+pop|1|popUpDialogue!4&10@
+rec|1|rect!8&11@
+rig|1|right_wall!7&11@
+sta|4|stand_B!5&11@stand_R!5&11@stand_F!5&11@stand_L!5&11@
+top|1|top_wall!7&11@
+upd|2|update!2&10@update!4&10@
+wal|4|walk_R!5&11@walk_D!5&11@walk_U!5&11@walk_L!5&11@
+x|2|x!9&11@x!10&11@
+y|2|y!9&11@y!10&11@
+-- END TREE

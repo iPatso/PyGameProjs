@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/batalha2_batalha2/!svn/ver/29/Batalha2/src/fonte
+END
+Player.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/batalha2_batalha2/!svn/ver/34/Batalha2/src/fonte/Player.py
+END
+GameObject.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/batalha2_batalha2/!svn/ver/29/Batalha2/src/fonte/GameObject.py
+END
+InputState.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/batalha2_batalha2/!svn/ver/34/Batalha2/src/fonte/InputState.py
+END
+BaseObject.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/batalha2_batalha2/!svn/ver/29/Batalha2/src/fonte/BaseObject.py
+END
+Stage.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/batalha2_batalha2/!svn/ver/34/Batalha2/src/fonte/Stage.py
+END
+Instructions.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/batalha2_batalha2/!svn/ver/29/Batalha2/src/fonte/Instructions.py
+END
+Menu.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/batalha2_batalha2/!svn/ver/34/Batalha2/src/fonte/Menu.py
+END
+SpriteAnimation.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/batalha2_batalha2/!svn/ver/29/Batalha2/src/fonte/SpriteAnimation.py
+END
+Factory.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/batalha2_batalha2/!svn/ver/29/Batalha2/src/fonte/Factory.py
+END
+Game.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/batalha2_batalha2/!svn/ver/34/Batalha2/src/fonte/Game.py
+END
+Resources.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/batalha2_batalha2/!svn/ver/35/Batalha2/src/fonte/Resources.py
+END
+ScreenManager.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/batalha2_batalha2/!svn/ver/35/Batalha2/src/fonte/ScreenManager.py
+END
+Jump.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/batalha2_batalha2/!svn/ver/29/Batalha2/src/fonte/Jump.py
+END
+Shot.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/batalha2_batalha2/!svn/ver/29/Batalha2/src/fonte/Shot.py
+END
+Enemy.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/batalha2_batalha2/!svn/ver/34/Batalha2/src/fonte/Enemy.py
+END
+Vector2.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/batalha2_batalha2/!svn/ver/29/Batalha2/src/fonte/Vector2.py
+END

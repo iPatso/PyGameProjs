@@ -1,0 +1,42 @@
+from CONST import *
+
+class Player():
+    def __init__(self):
+        self.walk_L = pygame.image.load(os.path.join('data','character_L.png')).convert_alpha()
+        self.walk_R = pygame.image.load(os.path.join('data','character_R.png')).convert_alpha()
+        self.stand_L = pygame.image.load(os.path.join('data','character_wL.png')).convert_alpha()
+        self.stand_R = pygame.image.load(os.path.join('data','character_wR.png')).convert_alpha()
+        
+        self.ani_speed_init = 10
+        self.ani_speed = self.ani_speed_init
+        
+        # Array of walking images
+        self.ani_L = arrayImg(self.walk_L, 53, 70)
+        self.ani_R = arrayImg(self.walk_R, 53, 70)
+        
+        self.ani_pos = 0
+        self.ani_max = 1                 # each animation has 2 frames
+        self.img = self.ani_L[0]
+        self.update(0, "sR")
+        
+        self.x = 0
+        
+    def update(self, isMoving, walk_stand_dir):
+        if isMoving != 0:
+            self.ani_speed -= 1
+            if self.ani_speed == 0:
+                if walk_stand_dir == "wL":
+                    self.img = self.ani_L[self.ani_pos]
+                elif walk_stand_dir == "wR":
+                    self.img = self.ani_R[self.ani_pos]
+#                elif walk_stand_dir == "sL":
+#                    self.img = self.stand_L
+#                elif walk_stand_dir == "sR":
+#                    self.img = self.stand_R
+                    
+                self.ani_speed = self.ani_speed_init
+                if self.ani_pos == self.ani_max:
+                    self.ani_pos = 0
+                else:
+                    self.ani_pos += 1
+        screen.blit(self.img, (screen.get_width()/2, screen.get_height()/2))

@@ -1,0 +1,11 @@
+INSTUPPlayer
+C:\Users\Patrick\Desktop\PyGames\EpicDuels\EpicDuels\src\Player.py
+INFOS:&&1|1|1|0&&2|2|1|1&&3|3|1|4&&3|5|1|4&&3|6|1|4&&3|7|1|4&&2|8|1|1
+__init__=2
+playerNum=7
+side=6
+Player=1
+Player.__init__=4
+teamUpdate=8
+team=3
+actions=5

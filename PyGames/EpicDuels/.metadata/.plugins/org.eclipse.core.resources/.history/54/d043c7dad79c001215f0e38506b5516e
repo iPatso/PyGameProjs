@@ -1,0 +1,28 @@
+import pygame, sys, os
+from pygame.locals import *
+
+def main():
+
+    pygame.init()
+    
+    screen = pygame.display.set_mode((600,400))
+    
+    r2 = pygame.image.load("data/r2d2.png").convert_alpha()
+    
+    while True:
+        for event in pygame.event.get():
+            if event.type == QUIT or (event.type == KEYDOWN and event.key == K_q):
+                pygame.quit()
+                sys.exit()
+                
+        for i in range(2000):
+#            screen.blit(r2, (300,200))
+            pygame.display.update(r2)
+                
+        screen.fill((100,100,100))
+        
+        pygame.display.flip()
+        
+if __name__ == "__main__":
+    main()
+                

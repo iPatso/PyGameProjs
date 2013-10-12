@@ -1,0 +1,8 @@
+import pygame, os
+from Team import Team
+
+class Player():
+    def __init__(self):
+        self.team = Team()
+        self.actions
+        

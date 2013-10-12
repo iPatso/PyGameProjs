@@ -1,0 +1,64 @@
+import pygame, sys, os
+from pygame.locals import *
+from Player import Player
+from Background import Background
+from CONST import *
+
+pygame.init()
+clock = pygame.time.Clock()
+
+player = Player()
+bg = Background()
+
+isMoving = False
+walk_stand_dir = "sR"
+
+def main():
+    while True:
+        clock.tick(60)
+        for event in pygame.event.get():
+            if event.type == QUIT or (event.type == KEYDOWN and event.key == K_q):
+                pygame.quit()
+                sys.exit()
+            elif event.type == KEYUP:
+                if event.key == K_LEFT:
+                    isMoving = False
+                    walk_stand_dir = "sL"
+                elif event.key == K_RIGHT:
+                    isMoving = False
+                    walk_stand_dir = "sR"
+#            elif event.type == KEYDOWN:
+#                if event.key == K_LEFT:
+#                    bg.goLeft()
+#                elif event.key == K_RIGHT:
+#                    bg.goRight()
+                    
+        key = pygame.key.get_pressed()
+        if key[K_LEFT]:
+            player.x += 2
+            isMoving = True
+            walk_stand_dir = "wL"        
+        elif key[K_RIGHT]:
+            player.x -= 2
+            isMoving = True
+            walk_stand_dir = "wR"
+    
+        
+        
+        
+        player.update(isMoving, walk_stand_dir)
+        bg.update()
+        pygame.display.update()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+if __name__ == '__main__':
+    main()

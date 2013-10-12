@@ -1,0 +1,41 @@
+import pygame, sys, os
+from pygame.locals import *
+from Player import Player
+from CONST import *
+
+pygame.init()
+clock = pygame.time.Clock()
+
+bg = pygame.image.load(os.path.join("data", "sky.png")).convert()
+player = Player()
+
+def main():
+    while True:
+        clock.tick(60)
+        for event in pygame.event.get():
+            if event.type == QUIT or (event.type == KEYDOWN and event.key == K_q):
+                pygame.quit()
+                sys.exit()
+    
+        screen.blit(bg, (0,0))
+        player.update(1, "wR")
+        
+        
+        
+        
+        
+        
+        pygame.display.update()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+if __name__ == '__main__':
+    main()

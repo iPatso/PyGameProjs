@@ -1,0 +1,7 @@
+import pygame
+
+class Team():
+    def __init__(self):
+        self.primary = pygame.image.load("data/asajj.png").convert_alpha()
+        self.secondary = []
+        self.deck

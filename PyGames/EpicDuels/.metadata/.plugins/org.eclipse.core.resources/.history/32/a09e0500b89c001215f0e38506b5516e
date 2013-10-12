@@ -1,0 +1,27 @@
+import pygame
+from CONST import *
+
+class Team():
+    def __init__(self):
+        self.primary = pygame.image.load("data/asajj.png").convert_alpha()
+        self.secondary = []
+        self.deck = 0
+        self.primX = 0
+        self.primY = 0
+        
+    def update(self):
+        for event in pygame.event.get():
+            if event.type == KEYDOWN:
+                if event.key == K_DOWN:
+                    self.primY += 20
+                elif event.key == K_UP:
+                    self.primY -= 20
+                elif event.key == K_LEFT:
+                    self.primX -= 20
+                elif event.key == K_RIGHT:
+                    self.primX += 20
+                    
+                    
+                    
+                    
+        screen.blit(self.primary,(self.primX,self.primY))

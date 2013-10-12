@@ -1,0 +1,22 @@
+from CONST import *
+
+
+
+class Background():
+    def __init__(self):
+        self.x = 0
+        self.image = pygame.image.load(os.path.join("data", "sky.png")).convert()
+        
+        
+        
+    # add parameters
+    def goRight(self):
+        if self.x > -4000:
+            self.x = self.x - 800
+        
+    def goLeft(self):
+        if self.x < 0:
+            self.x = self.x + 800
+        
+    def update(self):
+        screen.blit(self.image, (self.x, 0))

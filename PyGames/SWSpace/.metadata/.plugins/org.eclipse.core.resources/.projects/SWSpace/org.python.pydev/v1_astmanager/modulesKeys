@@ -1,0 +1,9 @@
+MODULES_MANAGER_V2
+CONST|C:\Users\Patrick\Desktop\PyGames\SWSpace\SWSpace\src\CONST.py
+Enemy|C:\Users\Patrick\Desktop\PyGames\SWSpace\SWSpace\src\Enemy.py
+FX|C:\Users\Patrick\Desktop\PyGames\SWSpace\SWSpace\src\FX.py
+GameTime|C:\Users\Patrick\Desktop\PyGames\SWSpace\SWSpace\src\GameTime.py
+Player|C:\Users\Patrick\Desktop\PyGames\SWSpace\SWSpace\src\Player.py
+SWSmenu|C:\Users\Patrick\Desktop\PyGames\SWSpace\SWSpace\src\SWSmenu.py
+TESTmovement|C:\Users\Patrick\Desktop\PyGames\SWSpace\SWSpace\src\TESTmovement.py
+main|C:\Users\Patrick\Desktop\PyGames\SWSpace\SWSpace\src\main.py

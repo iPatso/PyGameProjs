@@ -1,0 +1,11 @@
+import pygame
+from CONST import *
+
+class Team():
+    def __init__(self):
+        self.primary = pygame.image.load("data/asajj.png").convert_alpha()
+        self.secondary = []
+        self.deck
+        
+    def update(self):
+        screen.blit(self.primary,(0,0))
